@@ -50,7 +50,7 @@ public class UserService {
         }
         userRepository.delete(u);
     }
-//    #######13
+//    #######13Mohammed Alghamdi
     public void adminAprovedConsultant(Integer adminId, Integer cId){
         User u = userRepository.findUserById(adminId);
         if (u==null){
@@ -70,7 +70,7 @@ public class UserService {
             }
         }
     }
-//    ==============14
+//    ==============14 Mohammed Alghamdi
     public void assignUserToReservation(Integer uid,Integer rId){
         User u = userRepository.findUserById(uid);
         Reservation r=reservationRepository.findReservationById(rId);
@@ -81,7 +81,7 @@ public class UserService {
             userRepository.save(u);
         }
     }
-//    #################
+//    ################# Mohammed Alghamdi
     public List getStatistics(){
         List statistics=new ArrayList();
         statistics.add("consultant: "+consultantRepository.countApprovedConsultants());
