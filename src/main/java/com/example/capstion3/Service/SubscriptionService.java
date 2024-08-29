@@ -82,7 +82,7 @@ public class SubscriptionService {
         }
     }
 
-    //#################################################
+    //#################################################Mohammed Alghamdi
     public void checkSubscriptionOrNonSubscription() {
         List<Subscription> subscriptions = subscriptionRepository.findAll();
         for (Subscription sub : subscriptions) {
