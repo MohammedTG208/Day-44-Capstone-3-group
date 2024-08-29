@@ -64,7 +64,7 @@ public class ConsultantService {
 
     }
 
-    //    #####################5
+    //    #####################5 Mohammed Alghamdi
     public List getConsultantByCategory(Integer catId) {
         List<Consultant> getByCategory = new ArrayList<>();
         for (int i = 0; i < consultantRepository.findAll().size(); i++) {
@@ -90,7 +90,7 @@ public class ConsultantService {
             }
         }
     }
-//############### i change here *****************************88
+//############### i change here *****************************88 Mohammed Alghamdi
     public List<Consultant> getConsultantByExperience_years(Integer experience_years) {
         List<Consultant> getByExperience_years = new ArrayList<>();
         for (int i = 0; i < consultantRepository.findAll().size(); i++) {
@@ -101,7 +101,7 @@ public class ConsultantService {
         return getByExperience_years;
     }
 
-//######################
+//######################Mohammed Alghamdi
     public List<Consultant> getConsultantsBySpecialization(String specialization) {
         List<Consultant> allConsultants = consultantRepository.findAll();
         List<Consultant> filteredConsultants = new ArrayList<>();
