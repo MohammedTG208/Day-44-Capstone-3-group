@@ -30,7 +30,7 @@ public class SessionService {
 
 
 
-//######################10
+//######################10 Mohammed alghamdi
     public void addNewSession(SessionDTO sessionDTO , Integer consultantId) {
         Reservation reservation=reservationRepository.findReservationById(sessionDTO.getReservation_id());
         if (reservation==null) {
