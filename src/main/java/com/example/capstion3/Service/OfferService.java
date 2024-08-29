@@ -26,7 +26,7 @@ public class OfferService {
             return offerRepository.findAll();
         }
     }
-    //######################
+    //######################Mohammed ALghamdi
     public void addNewOffer(Offer offer,Integer consultantID,Integer consultantRQID) {
         Consultant consultant = consultantRepository.findConsultantById(consultantID);
         Consultant_Request consultant_request=consultantRequestRepository.findConsultant_RequestById(consultantRQID);
@@ -75,7 +75,7 @@ public class OfferService {
 
         return recentApprovedOffers;
     }
-//######################
+//######################Mohammed Alghamdi
     public void offerApproved(Integer offerId) {
         Offer offer = offerRepository.findOfferById(offerId);
         if (offer==null){
